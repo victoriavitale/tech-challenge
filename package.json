@@ -1,0 +1,19 @@
+{
+  "name": "contacts-list",
+  "version": "1.0.0",
+  "description": "A small app to display contacts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriavitale/tech-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriavitale/tech-challenge/issues"
+  },
+  "homepage": "https://github.com/victoriavitale/tech-challenge#readme"
+}

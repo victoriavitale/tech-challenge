@@ -1,2 +1,2 @@
-# tech-challenge
-Tech Challenge for Democracy OS
+# Contact List
+This is a small app created to display a list of contacts
