@@ -1,8 +1,7 @@
-'use strict';
-
 const mongoose = require('mongoose'),
       Schema = mongoose.Schema;
 
+//User model
 const UserSchema = new Schema({
     _id: String,
     firstName: String,
@@ -11,6 +10,7 @@ const UserSchema = new Schema({
     bio: String
 })
 
+//Functions to retrieve users data from MongoDB collection
 UserSchema.statics = {
     findAll: function(){
         return this.find().exec();

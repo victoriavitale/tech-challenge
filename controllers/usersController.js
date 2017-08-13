@@ -1,4 +1,6 @@
-const User = require('../models/users');
+const User = require('../models/user');
+
+//Methods to retrieve users data according to those defined in UserSchema Statics
 
 class UsersController {
     getAll(req, res, next){
