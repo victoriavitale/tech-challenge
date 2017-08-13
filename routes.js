@@ -4,7 +4,7 @@ const express = require('express'),
 
 const UsersController = new usersController;   
 
-router.get('/users', UsersController.getAll());
-router.get('/users/:id', UsersController.getOneById());
+router.get('/users', UsersController.getAll);
+router.get('/users/:id', UsersController.getOneById);
 
 module.exports = router;

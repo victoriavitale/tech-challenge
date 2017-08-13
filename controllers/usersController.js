@@ -1,18 +1,17 @@
 const User = require('../models/users');
 
 class UsersController {
-    constructor(){
-        this._user = new User;
-    }
-
     getAll(req, res, next){
-        this._user.findAll(function(err, data){
-            return data.toJSON();
+        User.findAll().then(data => {
+            res.json(data);
         });
     }
 
     getOneById(req, res, next){
-
+        let userId = req.params.id;
+        User.findOneById(userId).then(data => {
+            res.json(data);
+        })
     }
 }
 

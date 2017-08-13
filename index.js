@@ -1,8 +1,11 @@
 const express = require('express'),
+      mongoose = require('mongoose'),
       routes = require('./routes'),
       userModel = require('./models/users');
 
 const app = express();
+
+mongoose.connect('mongodb://localhost/contacts-app');
 
 app.use('/', routes);
 
