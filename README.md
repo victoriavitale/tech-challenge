@@ -94,7 +94,7 @@ Returns json data from a single user filtered by ID
 - Before running the application, run **npm install** to install all dependencies
 - Run the application with **node index**
 
-###Notes    
+### Notes    
 Application will run in port 5000 by default
 
 
