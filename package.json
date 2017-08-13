@@ -1,5 +1,5 @@
 {
-  "name": "contacts-list",
+  "name": "users-list-ui",
   "version": "1.0.0",
   "description": "A small app to display contacts",
   "main": "index.js",
@@ -19,5 +19,8 @@
   "dependencies": {
     "express": "^4.15.3",
     "mongoose": "^4.11.6"
+  },
+  "devDependencies": {
+    "cors": "^2.8.4"
   }
 }
