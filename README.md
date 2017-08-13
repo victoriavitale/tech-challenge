@@ -48,7 +48,6 @@ Returns the complete list of users
     "avatar": "https://robohash.org/quisquamtemporalaboriosam.jpg?size=100x100&set=set1",
     "bio": "innovate transparent solutions"
     },
-    ...
 ]
 ```
 
@@ -93,10 +92,9 @@ Returns json data from a single user filtered by ID
 ### Instructions
 
 - Before running the application, run **npm install** to install all dependencies
-- Run the application with  
-    **node index**
+- Run the application with **node index**
 
-##Notes    
+###Notes    
 Application will run in port 5000 by default
 
 
