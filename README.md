@@ -24,7 +24,6 @@ https://users-list-api.now.sh
 
 Returns the complete list of users
 
-##Endpoint
 
     GET /users
 
@@ -49,6 +48,7 @@ Returns the complete list of users
     "avatar": "https://robohash.org/quisquamtemporalaboriosam.jpg?size=100x100&set=set1",
     "bio": "innovate transparent solutions"
     },
+    ...
 ]
 ```
 
@@ -57,7 +57,6 @@ Returns the complete list of users
 
 Returns json data from a single user filtered by ID
 
-##Endpoint
 
     GET /users/{id}
 
@@ -86,5 +85,18 @@ Returns json data from a single user filtered by ID
 
 
 ## Running the application in your local enviroment
+
+### Required
+- Node
+- npm
+
+### Instructions
+
+- Before running the application, run **npm install** to install all dependencies
+- Run the application with  
+    **node index**
+
+##Notes    
+Application will run in port 5000 by default
 
 
